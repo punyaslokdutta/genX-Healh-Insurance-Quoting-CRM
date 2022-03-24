@@ -1,4 +1,4 @@
-# ![Lakeside Mutual Logo](./resources/logo-32x32.png) Lakeside Mutual
+# ![Lakeside Mutual Logo](./resources/eclipse-import-maven-project-1.png) genX Mutual
 
 genX Mutual is a fictitious insurance company which serves as a sample application to demonstrate microservices and domain-driven design. The company provides several digital services to its customers and its employees. [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) are applied in the application backends (see [MAP.md](./MAP.md)).
 
