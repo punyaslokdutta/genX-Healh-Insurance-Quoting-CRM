@@ -1,6 +1,6 @@
 # ![Lakeside Mutual Logo](./resources/logo-32x32.png) Lakeside Mutual
 
-Lakeside Mutual is a fictitious insurance company which serves as a sample application to demonstrate microservices and domain-driven design. The company provides several digital services to its customers and its employees. [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) are applied in the application backends (see [MAP.md](./MAP.md)).
+genX Mutual is a fictitious insurance company which serves as a sample application to demonstrate microservices and domain-driven design. The company provides several digital services to its customers and its employees. [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) are applied in the application backends (see [MAP.md](./MAP.md)).
 
 ## Architecture Overview
 The following diagram shows an overview of the core components that are the building blocks for the services Lakeside Mutual provides to its customers and its employees:
@@ -104,10 +104,6 @@ COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose -f docker-compose.pr
 Each backend service has its own data store. The Spring-JPA based applications all use the H2 relational database. By default, all data will be lost during restarts, please see the individual README files to enable durable persistency. The backend services also contain the H2 Console to browse the database. It can be found at `/console`. For example, for the Customer Core, the address is [http://localhost:8110/console](http://localhost:8110/console).
 
 
-## Frequently Asked Questions and Troubleshooting
 
-See our [FAQ](./FAQ.md) for more information on running the applications and the [IDE instructions](./IDE_INSTRUCTIONS) page to get started with IntelliJ IDEA, Eclipse and Visual Studio Code.
 
-## License
 
-This project is made avaible under the Eclipse Public License v 2.0. See the [LICENSE](LICENSE.md) file for the full license.
